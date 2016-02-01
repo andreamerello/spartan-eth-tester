@@ -1,0 +1,20 @@
+NET "Phynrst" LOC = D15;
+NET "Rx0" LOC = G7;
+NET "Rx1" LOC = G8;
+NET "Rx2" LOC = G9;
+NET "Rx3" LOC = H9;
+NET "Rxdv" LOC = H10;
+NET "Rxer" LOC = G10;
+NET "Tx0" LOC = F8 | SLEW = FAST | DRIVE = 8;
+NET "Tx1" LOC = E7 | SLEW = FAST | DRIVE = 8;
+NET "Tx2" LOC = E6 | SLEW = FAST | DRIVE = 8;
+NET "Tx3" LOC = F7 | SLEW = FAST | DRIVE = 8;
+NET "Txck" LOC = E11 ;
+NET "Txen" LOC = D8 | SLEW = FAST | DRIVE = 8;
+#north
+NET "Button" LOC = T14 | PULLDOWN;
+NET "Mainck" LOC = E12;
+NET "Led0" LOC = R20;
+NET "Led1" LOC = T19;
+#south
+NET "Main_rst" LOC = T15  | PULLDOWN;
